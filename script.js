@@ -57,7 +57,7 @@
          if(level > highScore){
             highScore = level;
          }
-        h2.innerHTML = `Game over! your score was <b> ${level} </b> <br> Press any key to start. <br> <b> Hight Score ${highScore}</b>`
+        h2.innerHTML = `Game over! your score was <b> ${level} </b> <br> Press any key to start. <br> <b> High Score ${highScore}</b>`
         document.querySelector("body").style.backgroundColor = "red";
         setTimeout( function(){
          document.querySelector("body").style.backgroundColor = "white";
@@ -88,4 +88,5 @@
     gameSeq = [];
     userSeq = [];
     level = 0;
+
    }
